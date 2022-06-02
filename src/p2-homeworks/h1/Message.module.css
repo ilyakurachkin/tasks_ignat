@@ -1,0 +1,45 @@
+.message {
+    display: flex;
+    font-family: Arial,sans-serif;
+    margin: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+.avatar {
+    height: 100%;
+}
+.img {
+    position: relative;
+    top: 20px;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #618939;
+    margin: 0 0 20px;
+}
+.description {
+    position: relative;
+    border-radius: 10px  10px 10px 0;
+    background: bisque;
+    padding: 10px;
+
+}
+.description:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -30px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(60px at top left,transparent 49%,bisque 51%) no-repeat right bottom;
+}
+.text {
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0;
+    color: #4d7530;
+}
