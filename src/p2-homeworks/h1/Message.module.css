@@ -1,17 +1,24 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .message {
     display: flex;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     margin: 20px;
-    max-width: 500px;
-    width: 100%;
 }
+
 .avatar {
     height: 100%;
 }
+
 .img {
     position: relative;
     top: 20px;
 }
+
 .title {
     display: flex;
     justify-content: space-between;
@@ -20,13 +27,15 @@
     color: #618939;
     margin: 0 0 20px;
 }
+
 .description {
     position: relative;
-    border-radius: 10px  10px 10px 0;
+    border-radius: 10px 10px 10px 0;
     background: bisque;
     padding: 10px;
 
 }
+
 .description:after {
     content: '';
     position: absolute;
@@ -35,8 +44,9 @@
     display: block;
     width: 30px;
     height: 30px;
-    background: radial-gradient(60px at top left,transparent 49%,bisque 51%) no-repeat right bottom;
+    background: radial-gradient(60px at top left, transparent 49%, bisque 51%) no-repeat right bottom;
 }
+
 .text {
     font-size: 16px;
     line-height: 1.2;
